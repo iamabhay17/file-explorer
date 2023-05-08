@@ -1,0 +1,43 @@
+.folder-div{
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+}
+.input-div
+{
+    display: flex;
+    gap: 0.2rem;
+    margin:0.2rem 0;
+    min-width: 400px;
+}
+.input-div>input{
+  min-width: 390px;
+  padding: 0.2rem 1rem;
+}
+
+.folder-header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.2rem 1rem;
+    margin:0.2rem 0;
+    border: 1px solid black;
+    background-color: lavender;
+    cursor: pointer;
+}
+.folder-button
+{
+    display: flex;
+    gap: 1rem;
+}
+.folder-body
+{
+    margin-left: 1rem;
+}
+.file-div
+{
+    border: 1px solid black;
+    padding: 0.2rem 1rem;
+
+}
